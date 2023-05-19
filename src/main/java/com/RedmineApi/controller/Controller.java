@@ -102,7 +102,7 @@ public class Controller {
 		}
 
 		User userDetails = userRepository.userDetails(userLogin);
-		System.out.println("=userDetails1111111111111111=" + userDetails);
+		System.out.println("=userDetails print=" + userDetails);
 
 		
 		if (userDetails != null) {
